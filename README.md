@@ -13,7 +13,7 @@ Hospital readmissions can increase healthcare costs and may indicate gaps in dis
 The complete end-to-end architecture, including the Medallion data pipeline, Databricks/PySpark, Snowflake analytics, Machine Learning, FastAPI, and Generative AI/RAG components, is available here:
 
 ➡️ [View Full Healthcare Data & AI Architecture](architecture/architecture.md)
-```
+
 ## Technology Stack
 
 Data Engineering: Python, Pandas, PySpark, Databricks, Delta Lake, Medallion Architecture
