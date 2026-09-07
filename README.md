@@ -9,33 +9,10 @@ An end-to-end healthcare data, machine learning, and Generative AI platform for 
 Hospital readmissions can increase healthcare costs and may indicate gaps in discharge planning and follow-up care. This project demonstrates how healthcare encounter data can be transformed into analytics-ready datasets, used to train a machine learning risk model, and connected to a Retrieval-Augmented Generation (RAG) assistant for grounded analytical Q&A.
 
 ## Architecture
-```text
-Synthetic Patient Data
-        |
-        v
-Bronze Raw Layer
-        |
-        v
-Silver Curated Layer
-        |
-        v
-Gold Analytics Layer
-       / \
-      /   \
-     v     v
-ML Model   RAG / GenAI
-   |          |
-   v          v
-FastAPI    Nomic Embeddings
-              |
-              v
-       Semantic Retrieval
-              |
-              v
-       Llama 3.2 / Ollama
 
-Databricks/PySpark + Delta Lake -> scalable data pipeline implementation
-Snowflake -> analytics warehouse implementation
+The complete end-to-end architecture, including the Medallion data pipeline, Databricks/PySpark, Snowflake analytics, Machine Learning, FastAPI, and Generative AI/RAG components, is available here:
+
+➡️ [View Full Healthcare Data & AI Architecture](architecture/architecture.md)
 ```
 ## Technology Stack
 
